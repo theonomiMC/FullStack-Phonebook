@@ -1,0 +1,70 @@
+{"persons": [
+  {
+    "name": "Davit Bk",
+    "number": "021-536-555",
+    "id": 1
+  },
+  {
+    "name": "Toko Iberieli",
+    "number": "333-022-003",
+    "id": 2
+  },
+  {
+    "name": "Nata Theg",
+    "number": "077-055-333",
+    "id": 4
+  },
+  {
+    "name": "Nana Murman",
+    "number": "555- 5555",
+    "id": 5
+  },
+  {
+    "name": "Agata Crist",
+    "number": "7889999",
+    "id": 9
+  },
+  {
+    "name": "Arto Fellas",
+    "number": "01-02-0056",
+    "id": 10
+  },
+  {
+    "name": "Tornike Bakakuri",
+    "number": "555-353-258",
+    "id": 11
+  },
+  {
+    "name": "Leonardo Da'vinci",
+    "number": "002-003-004",
+    "id": 14
+  },
+  {
+    "name": "Amine Lasar",
+    "number": "3000-0002",
+    "id": 15
+  },
+  {
+    "name": "Amin Lasar",
+    "number": "1111111",
+    "id": 16
+  }
+],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

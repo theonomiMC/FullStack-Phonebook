@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body, html{
+  margin:10px;
+  padding:5px;
+  line-height: 1.5;
+  background-color: burlywood;
+  font-family: 'Georgia';
+}
+h1{
+   font: 25px;
+   font-weight: 700;
+}
+h3{
+  font-size: 18px;
+  
+}
+.submit{
+  background-color: rgb(23, 92, 161);
+
+}
+button{
+  margin:0 15px;
+  padding: 5px 25px;
+  border:none;
+  outline:none;
+  background-color: rgb(207, 40, 143);
+  color:whitesmoke;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+p, li{
+  font-size: 1em;
+  padding-top: 10px;
+}
+span{
+  font-size:1.5em
+}
+input{
+  margin:10px;
+}
+.error {
+  color: red;
+  background: rgb(49, 38, 38);
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,115 @@
+{
+  "persons": [
+    {
+      "name": "Davit Bk",
+      "number": "021-536-555",
+      "id": 1
+    },
+    {
+      "name": "Toko Iberieli",
+      "number": "333-022-003",
+      "id": 2
+    },
+    {
+      "name": "Nata Theg",
+      "number": "077-055-333",
+      "id": 4
+    },
+    {
+      "name": "Nana Murman",
+      "number": "555- 5555",
+      "id": 5
+    },
+    {
+      "name": "Agata Crist",
+      "number": "7889999",
+      "id": 9
+    },
+    {
+      "name": "Arto Fellas",
+      "number": "01-02-0056",
+      "id": 10
+    },
+    {
+      "name": "Tornike Bakakuri",
+      "number": "555-353-258",
+      "id": 11
+    },
+    {
+      "name": "Leonardo Da'vinci",
+      "number": "002-003-004",
+      "id": 14
+    },
+    {
+      "name": "Amine Lasar",
+      "number": "3000-0002",
+      "id": 15
+    },
+    {
+      "name": "Amin Lasar",
+      "number": "1111111",
+      "id": 16
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "content": "HTML is easy",
+      "date": "2019-05-30T17:30:31.098Z",
+      "important": false
+    },
+    {
+      "id": 2,
+      "content": "Browser can execute only JavaScript",
+      "date": "2019-05-30T18:39:34.091Z",
+      "important": false
+    },
+    {
+      "id": 3,
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "date": "2019-05-30T19:20:14.298Z",
+      "important": false
+    },
+    {
+      "content": "hello",
+      "date": "2020-09-28T12:54:14.603Z",
+      "important": true,
+      "id": 4
+    },
+    {
+      "content": "Javascript - one of the important languge",
+      "date": "2020-09-28T13:00:24.480Z",
+      "important": true,
+      "id": 5
+    },
+    {
+      "content": "python - futer language",
+      "date": "2020-09-28T13:02:27.147Z",
+      "important": true,
+      "id": 6
+    },
+    {
+      "content": "",
+      "date": "2020-09-29T14:58:25.768Z",
+      "important": false,
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
