@@ -39,6 +39,7 @@ export default function App() {
             const name = persons.find(p => p.name === newName)
             const updateNumber = { ...name, number: newNumber }
             if (window.confirm(`${newName} is already in the phonebook, replace number?`)) {
+         // ------CREATE Person--------------       
                 personsService
                     .update(name.id, updateNumber)
                     .then(changedNumber => {
@@ -46,7 +47,11 @@ export default function App() {
                             name.id !== id ? name : changedNumber))
                         setErrorMessage(`${newName}'s phone number was updated`)
                         setTimeout(() => setErrorMessage(null), 5000)
+                        console.log(setErrorMessage);
                     })
+                    .catch(error => {
+                        setErrorMessage(`this is ${error.response.data}`)
+                      })
             }
         }
         const showAlert = (condition) => {
